@@ -1,0 +1,1 @@
+Realiza un script que codifique un texto dando la vuelta a todas las palabras que tenga este.
