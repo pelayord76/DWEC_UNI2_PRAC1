@@ -1,9 +1,9 @@
-var texto = prompt("Escribe un breve texto:");
+var texto = prompt("Escribe un texto:");
 texto = separaPalabras(texto);
 console.log(giraPalabras(texto));
 
 while (texto != "ESC") {
-    var texto = prompt("Escribe un breve texto:");
+    var texto = prompt("Escribe un texto:");
     if (texto === "ESC");
     else {
         texto = separaPalabras(texto);
