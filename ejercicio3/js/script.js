@@ -39,7 +39,9 @@ function muestraDatos(equipos, quinielas) {
         }
 
         let respuesta = prompt("¿Desea ver otro resultado? (si/no)").toLowerCase();
-        if(respuesta === no) continuar = false;
+        if(respuesta === "no") {
+            continuar = false;
+        }
     }
 }
 
